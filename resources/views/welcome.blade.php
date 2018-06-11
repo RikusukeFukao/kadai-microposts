@@ -1,5 +1,5 @@
 @extends('layouts.app')
-s
+
 @section('content')
     @if (Auth::check())
         <?php $user = Auth::user(); ?>
