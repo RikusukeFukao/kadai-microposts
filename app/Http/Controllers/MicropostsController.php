@@ -26,6 +26,7 @@ class MicropostsController extends Controller
             ];
         }
         return view('welcome', $data);
+        
     }
     
     
